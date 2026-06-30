@@ -1,0 +1,1410 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Live activity for Micoh18</title>
+  <desc id="desc">Public contribution metrics, commits, isometric calendar, and active repositories.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1116"/>
+      <stop offset="0.55" stop-color="#101C24"/>
+      <stop offset="1" stop-color="#1A1333"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DD3A8"/><stop offset="0.5" stop-color="#F4B860"/><stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <filter id="isoBrightness1">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="0.6"/><feFuncG type="linear" slope="0.6"/><feFuncB type="linear" slope="0.6"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="isoBrightness2">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="0.2"/><feFuncG type="linear" slope="0.2"/><feFuncB type="linear" slope="0.2"/>
+      </feComponentTransfer>
+    </filter>
+    <style>
+      .eyebrow{font:700 14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2.4px;fill:#9CA3AF;text-transform:uppercase}
+      .title{font:800 34px ui-serif,Georgia,'Times New Roman',serif;fill:#F8FAFC}
+      .value{font:800 44px ui-serif,Georgia,'Times New Roman',serif;fill:#F8FAFC}
+      .label{font:600 15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#A7F3D0}
+      .muted{font:500 16px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#9CA3AF}
+      .repo{font:650 16px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#E5E7EB}
+      .count{font:650 15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#F4B860}
+      .copy{font:400 19px ui-serif,Georgia,'Times New Roman',serif;fill:#D1D5DB}
+    </style>
+  </defs>
+
+  <rect width="1200" height="430" rx="30" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="428" rx="29" stroke="url(#edge)" stroke-opacity="0.42"/>
+
+  <text x="50" y="58" class="eyebrow">live activity</text>
+  <text x="50" y="98" class="title">stats</text>
+
+  <rect x="50" y="126" width="140" height="96" rx="22" fill="#111827" fill-opacity="0.82" stroke="#7DD3A8" stroke-opacity="0.22"/>
+  <text x="76" y="162" class="value">900</text>
+  <text x="76" y="196" class="label">contribs/year</text>
+
+  <rect x="214" y="126" width="140" height="96" rx="22" fill="#111827" fill-opacity="0.82" stroke="#F4B860" stroke-opacity="0.22"/>
+  <text x="240" y="162" class="value">484</text>
+  <text x="240" y="196" class="label">commits/year</text>
+
+  <rect x="378" y="126" width="140" height="96" rx="22" fill="#111827" fill-opacity="0.82" stroke="#C084FC" stroke-opacity="0.22"/>
+  <text x="404" y="162" class="value">320</text>
+  <text x="404" y="196" class="label">30 days</text>
+
+  <text x="50" y="254" class="eyebrow">3d calendar</text>
+  <g transform="translate(96 248) scale(3.55)">
+    <g transform="translate(0.00 0.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2025-12-31: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-01-01: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-01-02: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-01-03: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-01-04: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-01-05: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-01-06: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(1.70 1.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-01-07: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-01-08: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-01-09: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 8.93)">
+          <title>2026-01-10: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.93)">
+          <title>2026-01-11: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-01-12: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-01-13: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(3.40 2.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-01-14: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-01-15: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-01-16: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-01-17: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-01-18: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-01-19: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-01-20: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(5.10 3.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-01-21: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.93)">
+          <title>2026-01-22: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-01-23: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-01-24: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-01-25: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-01-26: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-01-27: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(6.80 4.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-01-28: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-01-29: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-01-30: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-01-31: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-02-01: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-02-02: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-02-03: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(8.50 5.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-02-04: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.86)">
+          <title>2026-02-05: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-02-06: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-02-07: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-02-08: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-02-09: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-02-10: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(10.20 6.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-02-11: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-02-12: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 7.72)">
+          <title>2026-02-13: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-02-14: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.79)">
+          <title>2026-02-15: 3</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.21 0,1.21 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.21 1.7,2.21 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-02-16: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-02-17: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(11.90 7.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-02-18: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-02-19: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-02-20: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-02-21: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.93)">
+          <title>2026-02-22: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-02-23: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-02-24: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(13.60 8.00)">
+    
+        <g transform="translate(-0.00 5.72)">
+          <title>2026-02-25: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-02-26: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 7.93)">
+          <title>2026-02-27: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-5.10 8.86)">
+          <title>2026-02-28: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.79)">
+          <title>2026-03-01: 3</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.21 0,1.21 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.21 1.7,2.21 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-03-02: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 11.93)">
+          <title>2026-03-03: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    </g>
+    <g transform="translate(15.30 9.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-03-04: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.72)">
+          <title>2026-03-05: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    
+        <g transform="translate(-3.40 7.66)">
+          <title>2026-03-06: 5</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.34 0,1.34 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.34 1.7,2.34 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-03-07: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-03-08: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-03-09: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 11.72)">
+          <title>2026-03-10: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    </g>
+    <g transform="translate(17.00 10.00)">
+    
+        <g transform="translate(-0.00 5.93)">
+          <title>2026-03-11: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-03-12: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 7.79)">
+          <title>2026-03-13: 3</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.21 0,1.21 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.21 1.7,2.21 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-03-14: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-03-15: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 10.93)">
+          <title>2026-03-16: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-10.20 11.93)">
+          <title>2026-03-17: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    </g>
+    <g transform="translate(18.70 11.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-03-18: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-03-19: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-03-20: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-03-21: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.93)">
+          <title>2026-03-22: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-03-23: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-03-24: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(20.40 12.00)">
+    
+        <g transform="translate(-0.00 5.79)">
+          <title>2026-03-25: 3</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.21 0,1.21 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.21 1.7,2.21 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.86)">
+          <title>2026-03-26: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-3.40 7.59)">
+          <title>2026-03-27: 6</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.41 0,1.41 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.41 1.7,2.41 z" />
+        </g>
+    
+        <g transform="translate(-5.10 8.93)">
+          <title>2026-03-28: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.31)">
+          <title>2026-03-29: 10</title>
+          <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#40c463" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.69 0,1.69 z" />
+          <path fill="#40c463" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.69 1.7,2.69 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-03-30: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 11.66)">
+          <title>2026-03-31: 5</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.34 0,1.34 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.34 1.7,2.34 z" />
+        </g>
+    </g>
+    <g transform="translate(22.10 13.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-04-01: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-04-02: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-04-03: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 8.86)">
+          <title>2026-04-04: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.93)">
+          <title>2026-04-05: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-04-06: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-04-07: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(23.80 14.00)">
+    
+        <g transform="translate(-0.00 5.93)">
+          <title>2026-04-08: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-04-09: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-04-10: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-04-11: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.86)">
+          <title>2026-04-12: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-04-13: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-04-14: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(25.50 15.00)">
+    
+        <g transform="translate(-0.00 5.93)">
+          <title>2026-04-15: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.93)">
+          <title>2026-04-16: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-04-17: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-04-18: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.93)">
+          <title>2026-04-19: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-8.50 10.93)">
+          <title>2026-04-20: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-04-21: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(27.20 16.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-04-22: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-04-23: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-04-24: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-04-25: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.66)">
+          <title>2026-04-26: 5</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.34 0,1.34 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.34 1.7,2.34 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-04-27: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-04-28: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(28.90 17.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-04-29: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 7.00)">
+          <title>2026-04-30: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-05-01: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-05-02: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-05-03: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-05-04: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-05-05: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(30.60 18.00)">
+    
+        <g transform="translate(-0.00 5.72)">
+          <title>2026-05-06: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.86)">
+          <title>2026-05-07: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-3.40 4.00)">
+          <title>2026-05-08: 58</title>
+          <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#216e39" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,6.00 0,5.00 z" />
+          <path fill="#216e39" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,5.00 1.7,6.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 8.24)">
+          <title>2026-05-09: 11</title>
+          <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#40c463" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.76 0,1.76 z" />
+          <path fill="#40c463" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.76 1.7,2.76 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.52)">
+          <title>2026-05-10: 7</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.48 0,1.48 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.48 1.7,2.48 z" />
+        </g>
+    
+        <g transform="translate(-8.50 10.93)">
+          <title>2026-05-11: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-05-12: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(32.30 19.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-05-13: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.38)">
+          <title>2026-05-14: 9</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.62 0,1.62 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.62 1.7,2.62 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-05-15: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 8.59)">
+          <title>2026-05-16: 6</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.41 0,1.41 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.41 1.7,2.41 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.93)">
+          <title>2026-05-17: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-8.50 10.59)">
+          <title>2026-05-18: 6</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.41 0,1.41 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.41 1.7,2.41 z" />
+        </g>
+    
+        <g transform="translate(-10.20 11.52)">
+          <title>2026-05-19: 7</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.48 0,1.48 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.48 1.7,2.48 z" />
+        </g>
+    </g>
+    <g transform="translate(34.00 20.00)">
+    
+        <g transform="translate(-0.00 5.10)">
+          <title>2026-05-20: 13</title>
+          <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#40c463" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.90 0,1.90 z" />
+          <path fill="#40c463" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.90 1.7,2.90 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.17)">
+          <title>2026-05-21: 12</title>
+          <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#40c463" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.83 0,1.83 z" />
+          <path fill="#40c463" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.83 1.7,2.83 z" />
+        </g>
+    
+        <g transform="translate(-3.40 7.86)">
+          <title>2026-05-22: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-5.10 8.79)">
+          <title>2026-05-23: 3</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.21 0,1.21 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.21 1.7,2.21 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.86)">
+          <title>2026-05-24: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-8.50 9.83)">
+          <title>2026-05-25: 17</title>
+          <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#40c463" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,3.17 0,2.17 z" />
+          <path fill="#40c463" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,2.17 1.7,3.17 z" />
+        </g>
+    
+        <g transform="translate(-10.20 11.52)">
+          <title>2026-05-26: 7</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.48 0,1.48 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.48 1.7,2.48 z" />
+        </g>
+    </g>
+    <g transform="translate(35.70 21.00)">
+    
+        <g transform="translate(-0.00 5.93)">
+          <title>2026-05-27: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.72)">
+          <title>2026-05-28: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    
+        <g transform="translate(-3.40 7.52)">
+          <title>2026-05-29: 7</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.48 0,1.48 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.48 1.7,2.48 z" />
+        </g>
+    
+        <g transform="translate(-5.10 8.79)">
+          <title>2026-05-30: 3</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.21 0,1.21 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.21 1.7,2.21 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.86)">
+          <title>2026-05-31: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-8.50 10.66)">
+          <title>2026-06-01: 5</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.34 0,1.34 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.34 1.7,2.34 z" />
+        </g>
+    
+        <g transform="translate(-10.20 6.00)">
+          <title>2026-06-02: 87</title>
+          <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#216e39" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,8.00 0,7.00 z" />
+          <path fill="#216e39" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,7.00 1.7,8.00 z" />
+        </g>
+    </g>
+    <g transform="translate(37.40 22.00)">
+    
+        <g transform="translate(-0.00 5.72)">
+          <title>2026-06-03: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.17)">
+          <title>2026-06-04: 12</title>
+          <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#40c463" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.83 0,1.83 z" />
+          <path fill="#40c463" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.83 1.7,2.83 z" />
+        </g>
+    
+        <g transform="translate(-3.40 2.90)">
+          <title>2026-06-05: 74</title>
+          <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#216e39" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,7.10 0,6.10 z" />
+          <path fill="#216e39" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,6.10 1.7,7.10 z" />
+        </g>
+    
+        <g transform="translate(-5.10 6.52)">
+          <title>2026-06-06: 36</title>
+          <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#216e39" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,4.48 0,3.48 z" />
+          <path fill="#216e39" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,3.48 1.7,4.48 z" />
+        </g>
+    
+        <g transform="translate(-6.80 8.21)">
+          <title>2026-06-07: 26</title>
+          <path fill="#30a14e" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#30a14e" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,3.79 0,2.79 z" />
+          <path fill="#30a14e" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,2.79 1.7,3.79 z" />
+        </g>
+    
+        <g transform="translate(-8.50 10.93)">
+          <title>2026-06-08: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-10.20 11.72)">
+          <title>2026-06-09: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    </g>
+    <g transform="translate(39.10 23.00)">
+    
+        <g transform="translate(-0.00 5.52)">
+          <title>2026-06-10: 7</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.48 0,1.48 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.48 1.7,2.48 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.72)">
+          <title>2026-06-11: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-06-12: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-06-13: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-06-14: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 10.93)">
+          <title>2026-06-15: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-10.20 11.79)">
+          <title>2026-06-16: 3</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.21 0,1.21 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.21 1.7,2.21 z" />
+        </g>
+    </g>
+    <g transform="translate(40.80 24.00)">
+    
+        <g transform="translate(-0.00 5.86)">
+          <title>2026-06-17: 2</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.14 0,1.14 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.14 1.7,2.14 z" />
+        </g>
+    
+        <g transform="translate(-1.70 6.93)">
+          <title>2026-06-18: 1</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.07 0,1.07 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.07 1.7,2.07 z" />
+        </g>
+    
+        <g transform="translate(-3.40 8.00)">
+          <title>2026-06-19: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-06-20: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 9.72)">
+          <title>2026-06-21: 4</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.28 0,1.28 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.28 1.7,2.28 z" />
+        </g>
+    
+        <g transform="translate(-8.50 10.52)">
+          <title>2026-06-22: 7</title>
+          <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.48 0,1.48 z" />
+          <path fill="#9be9a8" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.48 1.7,2.48 z" />
+        </g>
+    
+        <g transform="translate(-10.20 12.00)">
+          <title>2026-06-23: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    </g>
+    <g transform="translate(42.50 25.00)">
+    
+        <g transform="translate(-0.00 6.00)">
+          <title>2026-06-24: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-1.70 5.90)">
+          <title>2026-06-25: 16</title>
+          <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#40c463" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,3.10 0,2.10 z" />
+          <path fill="#40c463" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,2.10 1.7,3.10 z" />
+        </g>
+    
+        <g transform="translate(-3.40 7.24)">
+          <title>2026-06-26: 11</title>
+          <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#40c463" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.76 0,1.76 z" />
+          <path fill="#40c463" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.76 1.7,2.76 z" />
+        </g>
+    
+        <g transform="translate(-5.10 9.00)">
+          <title>2026-06-27: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-6.80 10.00)">
+          <title>2026-06-28: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-8.50 11.00)">
+          <title>2026-06-29: 0</title>
+          <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,2.00 0,1.00 z" />
+          <path fill="#ebedf0" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,1.00 1.7,2.00 z" />
+        </g>
+    
+        <g transform="translate(-10.20 10.97)">
+          <title>2026-06-30: 15</title>
+          <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
+          <path fill="#40c463" filter="url(#isoBrightness1)" d="M0,1 1.7,2 1.7,3.03 0,2.03 z" />
+          <path fill="#40c463" filter="url(#isoBrightness2)" d="M1.7,2 3.4,1 3.4,2.03 1.7,3.03 z" />
+        </g>
+    </g>
+    </g>
+  <text x="50" y="404" class="muted">last 182 days · last 7 days: 42</text>
+
+  <text x="574" y="58" class="eyebrow">most commits this year</text>
+  <text x="574" y="108" class="repo">Mr-Mainspring</text>
+    <rect x="574" y="118" width="360" height="10" rx="5" fill="#1F2937"/>
+    <rect x="574" y="118" width="360" height="10" rx="5" fill="#3178c6"/>
+    <text x="960" y="126" class="count">129</text>
+    <text x="574" y="150" class="repo">quiet-till</text>
+    <rect x="574" y="160" width="360" height="10" rx="5" fill="#1F2937"/>
+    <rect x="574" y="160" width="242" height="10" rx="5" fill="#f1e05a"/>
+    <text x="960" y="168" class="count">87</text>
+    <text x="574" y="192" class="repo">x402Warden-Solana</text>
+    <rect x="574" y="202" width="360" height="10" rx="5" fill="#1F2937"/>
+    <rect x="574" y="202" width="220" height="10" rx="5" fill="#3178c6"/>
+    <text x="960" y="210" class="count">79</text>
+    <text x="574" y="234" class="repo">flappy-dobi</text>
+    <rect x="574" y="244" width="360" height="10" rx="5" fill="#1F2937"/>
+    <rect x="574" y="244" width="167" height="10" rx="5" fill="#3178c6"/>
+    <text x="960" y="252" class="count">60</text>
+    <text x="574" y="276" class="repo">thethirdbowl</text>
+    <rect x="574" y="286" width="360" height="10" rx="5" fill="#1F2937"/>
+    <rect x="574" y="286" width="72" height="10" rx="5" fill="#A97BFF"/>
+    <text x="960" y="294" class="count">26</text>
+
+  <rect x="574" y="318" width="552" height="46" rx="23" fill="#0B1116" fill-opacity="0.7" stroke="#F7E6B1" stroke-opacity="0.16"/>
+  <text x="604" y="348" class="copy">last push: thethirdbowl · 26 Jun</text>
+  <text x="574" y="394" class="muted">streak: 1d · best: 27d · daily max: 87 · avg: ~2.45</text>
+  <text x="574" y="418" class="muted">contributed to 48 public/visible repositories</text>
+</svg>

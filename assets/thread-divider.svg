@@ -1,0 +1,17 @@
+<svg width="1200" height="84" viewBox="0 0 1200 84" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Thread and mycelium divider</title>
+  <desc id="desc">Organic line with connected nodes.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="42" x2="1200" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DD3A8" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#7DD3A8"/>
+      <stop offset="0.52" stop-color="#F4B860"/>
+      <stop offset="0.84" stop-color="#C084FC"/>
+      <stop offset="1" stop-color="#C084FC" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 45 C120 10 180 78 300 42 C424 5 492 72 600 42 C724 8 782 74 900 42 C1024 9 1080 69 1200 39" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#F8FAFC" opacity="0.84">
+    <circle cx="183" cy="54" r="4"/><circle cx="300" cy="42" r="5"/><circle cx="485" cy="55" r="4"/><circle cx="600" cy="42" r="5"/><circle cx="782" cy="53" r="4"/><circle cx="900" cy="42" r="5"/><circle cx="1032" cy="29" r="4"/>
+  </g>
+</svg>
